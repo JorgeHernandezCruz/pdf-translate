@@ -35,8 +35,8 @@ def translate_docx(input_path, output_path, output_format='docx'):
         raise ValueError("Formato de salida no soportado. Use 'docx' o 'pdf'.")
 
 if __name__ == "__main__":
-    input_file = input("Ingrese la ruta del archivo de entrada: ")
-    output_file = input("Ingrese la ruta del archivo de salida (incluya .docx o .pdf): ")
+    input_file = "C:\Users\jorge\Downloads\kl_047.12.6_kaspersky_next_edr_optimum_en_unit1_v1.0.docx"  # Especifica aquí la ruta del archivo a traducir
+    output_file = "C:\Users\jorge\Downloads\out.docx"  # Especifica aquí la ruta del archivo de salida
     output_format = output_file.split('.')[-1]
     
     translate_docx(input_file, output_file, output_format)
