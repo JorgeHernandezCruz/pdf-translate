@@ -1,1 +1,1 @@
-pdf translate English to Spanish
+pdf translate English to Spanish inpython 
